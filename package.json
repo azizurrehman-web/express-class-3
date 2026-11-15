@@ -1,0 +1,29 @@
+{
+  "name": "expressclass3",
+  "version": "1.0.0",
+  "description": "\"its testing app\"",
+  "homepage": "https://github.com/azizurrehman-web/express-class-3#readme",
+  "bugs": {
+    "url": "https://github.com/azizurrehman-web/express-class-3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azizurrehman-web/express-class-3.git"
+  },
+  "license": "MIT",
+  "author": "\"Aziz Ur Rehman\"",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "hasib": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.1",
+    "nodemon": "^3.1.14"
+  }
+}
